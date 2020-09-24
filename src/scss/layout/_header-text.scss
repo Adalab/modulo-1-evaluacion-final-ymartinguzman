@@ -12,8 +12,8 @@
   width: 290px;
   height: 110px;
   margin: 284px 15px 174px 15px;
-  color: #ffffff;
-  font-family: "Roboto Slab", serif;
+  color: $white;
+  font-family: $robotoSlab;
   font-weight: bold;
   line-height: 1.31;
   text-transform: uppercase;
@@ -30,9 +30,9 @@
   width: 290px;
   height: 21px;
   // margin: 404px 15px 143px 15px; hace caja muy grande alrededor
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #ffffff;
+  color: $white;
   position: absolute;
   top: 110px;
   margin-top: 10px;
