@@ -2,28 +2,36 @@
   background-color: violet;
 }
 
-.image {
+.hero-image {
   height: 100vh;
-  width: 100%; /*en modo mobile poner auto*/
-  position: relative;
-  top: 0;
+  background-image: url(./public/assets/image/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
-.menu-hamb {
+.menu {
   background-color: salmon;
   position: fixed;
   top: 0;
   z-index: 990;
 }
+.title {
+  display: flex;
+  justify-content: center;
+}
 
 .title__first {
   background-color: skyblue;
   position: absolute;
-  top: 384px;
-  left: 275px;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 42px;
 }
 .title__sec {
   background-color: springgreen;
   position: absolute;
-  bottom: 88px;
-  left: 275px;
+  top: 50%;
 }
