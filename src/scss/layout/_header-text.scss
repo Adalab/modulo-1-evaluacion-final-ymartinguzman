@@ -38,11 +38,19 @@
     margin-top: 10px;
   }
   &__arrow {
-    width: 45px;
-    height: 45px;
     background-color: white;
+    margin: 470px 137px 53px 138px;
+
     // border: coral 2px solid;
     position: absolute;
     top: 50px;
   }
+}
+
+.title__arrow--link {
+  width: 45px;
+  height: 45px;
+  padding: 18px 14px 14px 14px;
+  background-color: blue;
+  border-radius: 50%;
 }
