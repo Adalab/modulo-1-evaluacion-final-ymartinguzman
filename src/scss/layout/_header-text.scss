@@ -17,6 +17,9 @@
     line-height: 1.31;
     text-transform: uppercase;
     position: absolute;
+    // @media all and (min-width: 768px) {
+    //   margin: 384px 39px 172px 79px;
+    // }
 
     &--inner {
       display: flex;
@@ -36,21 +39,21 @@
     position: absolute;
     top: 110px;
     margin-top: 10px;
+    // @media all and (min-width: 768px) {
+    //   margin-top: 20px;
+    // }
   }
   &__arrow {
-    background-color: white;
     margin: 470px 137px 53px 138px;
-
-    // border: coral 2px solid;
     position: absolute;
     top: 50px;
-  }
-}
 
-.title__arrow--link {
-  width: 45px;
-  height: 45px;
-  padding: 18px 14px 14px 14px;
-  background-color: blue;
-  border-radius: 50%;
+    &--link {
+      width: 45px;
+      height: 45px;
+      padding: 18px 14px 14px 14px;
+      background-color: $white;
+      border-radius: 50%;
+    }
+  }
 }
