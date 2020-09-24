@@ -3,12 +3,16 @@
 }
 
 .hero-image {
-  height: 100vh;
-  background-image: url(./public/assets/image/cover.jpg);
-  background-position: center;
+  height: 568px;
+  background-image: url("../images/cover.jpg");
+  background-position-x: center;
+  background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+}
+.image {
+  height: 100vh;
 }
 .menu {
   background-color: salmon;
