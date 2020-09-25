@@ -31,8 +31,6 @@
   position: relative;
 }
 .hero__title-first {
-  width: 290px;
-  height: 110px;
   color: $white;
   margin: 284px 15px 0 15px;
   font-family: $robotoSlab;
@@ -84,5 +82,9 @@
   padding: 18px 14px 14px 14px;
   position: absolute;
   bottom: 53px;
-  left: 42%;
+  left: 43%;
+  @media all and (min-width: 768px) {
+  }
+  @media all and (min-width: 1200px) {
+  }
 }

@@ -10,32 +10,25 @@
   </head>
 
   <body>
-    <header>
-      <div class="hero-image"></div>
+    <header class="header">
+      <a href="https://adalab.es/" target="_blank"
+        ><button class="btn-hamburguer"></button>
+      </a>
 
-      <section>
-        <a href="https://adalab.es/" target="_blank"
-          ><button class="btn-hamburguer"></button>
-        </a>
+      <section class="hero">
+        <h1 class="hero__title-first">
+          <span> Anonymous</span>
+          <span> Proxy </span>
+        </h1>
+        <h3 class="hero__title-sec">In hac habitasse platea dictumst</h3>
 
-        <div class="title">
-          <h1 class="title__first">
-            <span class="title__first--inner"> Anonymous</span>
-            <span class="title__first--inner"> Proxy </span>
-          </h1>
-          <h3 class="title__sec">In hac habitasse platea dictumst</h3>
-        </div>
-
-        <a class="title__arrow" href="https://adalab.es/">
+        <a href="" class="hero__title--arrow">
           <!--ojo cambiar hrf para que vaya a main-->
 
-          <div>
-            <img
-              class="title__arrow--link"
-              src="./assets/images/ico-scroll-down.svg"
-              alt="Arrow to scroll down"
-            />
-          </div>
+          <img
+            src="./assets/images/ico-scroll-down.svg"
+            alt="Arrow to scroll down"
+          />
         </a>
       </section>
     </header>
@@ -71,27 +64,104 @@
       </section>
     </main>
 
-    <footer>
-      <nav>
+    <footer class="footer">
+      <a href="" class="footer__arrow">
+        <!--ojo cambiar hrf para que vaya a header-->
+
+        <img src="./assets/images/ico-arrow.svg" alt="Arrow to scroll up" />
+      </a>
+      <nav class="footer__articles">
         <ul>
-          <li>Articles</li>
-          <li>Books</li>
-          <li>Events</li>
-          <li>Reasons</li>
-          <li>Tips</li>
+          <li>
+            <a
+              class="footer__articles--link"
+              href="https://adalab.es/"
+              target="_blank"
+              style="color: white; text-decoration: none"
+              ;
+              >Articles</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__articles--link"
+              href="https://adalab.es/"
+              target="_blank"
+              style="color: white; text-decoration: none"
+              ;
+              >Books</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__articles--link"
+              href="https://adalab.es/"
+              target="_blank"
+              style="color: white; text-decoration: none"
+              ;
+              >Events</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__articles--link"
+              href="https://adalab.es/"
+              target="_blank"
+              style="color: white; text-decoration: none"
+              ;
+              >Reasons</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__articles--link"
+              href="https://adalab.es/"
+              target="_blank"
+              style="color: white; text-decoration: none"
+              ;
+              >Tips</a
+            >
+          </li>
         </ul>
       </nav>
-      <nav>
+      <nav class="footer__social-media">
         <ul>
-          <li>Twitter</li>
-          <li>Instagram</li>
-          <li>Mastodon.social</li>
+          <li>
+            <a
+              class="footer__social-media--link"
+              href="https://twitter.com/"
+              target="_blank"
+              style="color: white; text-decoration: none"
+              ;
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__social-media--link"
+              href="https://www.instagram.com/?hl=es"
+              target="_blank"
+              style="color: white; text-decoration: none"
+              ;
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__social-media--link"
+              href="https://mastodon.social/"
+              target="_blank"
+              style="color: white; text-decoration: none"
+              ;
+              >Mastodon.social</a
+            >
+          </li>
           <!-- <li><Mastodon class="social"></Mastodon></li> -->
         </ul>
       </nav>
-      <div>
-        &copy;2017
-        <small>we❤️components</small>
+      <div class="footer__copy">
+        <p>&copy;2020</p>
+        <small> We ❤️ components</small>
       </div>
     </footer>
 
