@@ -1,0 +1,85 @@
+.heather {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/cover.jpg");
+  background-position-x: center;
+  background-position-y: top; /*quitar¿?*/
+  background-repeat: no-repeat; /*quitar?¿?*/
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-hamburguer {
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 990; /*aplica a los siguientes*/
+  background-image: url("../images/ico-menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+.hero {
+  text-align: center;
+}
+.hero__title-first {
+  width: 290px;
+  height: 110px;
+  color: $white;
+  margin: 284px 15px 0 15px;
+  font-family: $robotoSlab;
+  font-size: 42px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    width: 690px;
+    height: 212px;
+    margin: 384px 39px 0 39px;
+    font-size: 80px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 730px;
+    height: 264px;
+    margin: 384px 275px 0 275px;
+    font-size: 100px;
+  }
+}
+.hero__title-sec {
+  width: 290px;
+  height: 21px;
+  color: $white;
+  margin: 10px 15px 143px 15px;
+  font-family: $robotoRegular;
+  font-size: 16px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media all and (min-width: 768px) {
+    width: 360px;
+    height: 32px;
+    margin: 0 204px 120px 204px;
+    font-size: 24px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 730px;
+    margin: 0 275px 88px 275px;
+  }
+}
+.hero__title--arrow {
+  background-color: $white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding: 18px 14px 14px 14px;
+  margin-top: 50px;
+}
