@@ -1,11 +1,16 @@
-.hero-image {
+.heather {
   height: 100vh;
+  width: 100%;
   background-image: url("../images/cover.jpg");
   background-position-x: center;
   background-position-y: top; /*quitar¿?*/
   background-repeat: no-repeat; /*quitar?¿?*/
   background-size: cover;
+  display: flex;
   overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .btn-hamburguer {
@@ -14,9 +19,16 @@
   height: 44px;
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 990; /*aplica a los siguientes*/
   background-image: url("../images/ico-menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: none;
+}
+.hero {
+  text-align: center;
+}
+.hero__title-first {
+  color: $white;
 }
