@@ -13,16 +13,75 @@
   padding: 30px 15px;
 }
 .reasons__main {
-  background-color: burlywood;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
+  grid-template-rows: 1fr 45px 1fr 45px 1fr;
+  text-align: center;
+  padding: 0 70px;
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 27.7px 1fr 27.7px 1fr;
+    grid-template-rows: 1fr;
+    padding: 0;
+    // .reasons__main-art1 {
+    //   grid-row: 1/2;
+    // }
+    // .reasons__main-art2 {
+    //   grid-row: 3/4;
+    // }
+    // .reasons__main-art3 {
+    //   grid-row: 5/6;
+    // }
+  }
 }
-// .reasons__main-articles {
-// }
+.reasons__main-art1 {
+  grid-row: 1/2;
+}
+.reasons__main-art1--title {
+  font-size: 18px;
+  font-family: $robotoSlab;
+  line-height: 30px;
+  color: $black;
+  font-weight: bold;
+}
+.reasons__main-art1--sen {
+  font-size: 18px;
+  font-family: $robotoRegular;
+  line-height: 30px;
+  color: $black;
+}
+
+.reasons__main-art2 {
+  grid-row: 3/4;
+}
+.reasons__main-art2--title {
+  font-size: 18px;
+  font-family: $robotoSlab;
+  line-height: 30px;
+  color: $black;
+  font-weight: bold;
+}
+.reasons__main-art2--sen {
+  font-size: 18px;
+  font-family: $robotoRegular;
+  line-height: 30px;
+  color: $black;
+}
+.reasons__main-art3 {
+  grid-row: 5/6;
+}
+.reasons__main-art3--title {
+  font-size: 18px;
+  font-family: $robotoSlab;
+  line-height: 30px;
+  color: $black;
+  font-weight: bold;
+}
+.reasons__main-art3--sen {
+  font-size: 18px;
+  font-family: $robotoRegular;
+  line-height: 30px;
+  color: $black;
+}
 .reasons__button {
   width: 100%;
   text-align: center;
@@ -31,23 +90,15 @@
   background-color: $orange;
   color: $white;
   border-radius: 22.5px;
-  margin: 45px 0;
+  margin: 45px 0 60px;
   border: 2px solid #f26002;
   font-size: 20px;
   padding: 10px 30px;
   font-family: $robotoRegular;
-  -webkit-transition: background-color, color, ease 2s;
-}
-// a:-webkit-any-link {
-//   color: $orange;
-//   cursor: pointer;
-//   text-decoration: none;
-// }
-button:hover {
-  color: $orange;
-  background-color: $white;
+  transition: background-color, color, ease 2s;
 }
 
-.reasons__button-out--link {
-  // color: white; /*color del link pero hace algo con el transition*/
+.reasons__button-out:hover {
+  background-color: $white;
+  color: $orange;
 }

@@ -64,6 +64,8 @@
   font-size: 20px;
   line-height: 45px;
   font-weight: 500;
+  transition: background-color, color, ease 2s;
+
   @media all and (min-width: 768px) {
     height: 45px;
     width: 91px;
@@ -72,3 +74,16 @@
     width: 160px;
   }
 }
+.info__button:hover {
+  background-color: $orange;
+  color: $white;
+}
+.info__button-link {
+  color: white;
+}
+// button:hover {
+//   background-color: $orange;
+//   .reasons__button-out--link {
+//     color: $white;
+//   }
+// }
