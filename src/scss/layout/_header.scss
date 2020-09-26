@@ -29,56 +29,56 @@
 .hero {
   text-align: center;
   position: relative;
-}
-.hero__title-first {
-  color: $white;
-  margin: 284px 15px 0 15px;
-  font-family: $robotoSlab;
-  font-size: $cuatroDos;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media all and (min-width: 768px) {
-    font-size: 80px;
+  &__title-first {
+    color: $white;
+    margin: 284px 15px 0 15px;
+    font-family: $robotoSlab;
+    font-size: $cuatroDos;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 100px;
+    }
   }
-  @media all and (min-width: 1200px) {
-    font-size: 100px;
+  &__title-sec {
+    width: 290px;
+    height: 21px;
+    color: $white;
+    margin: 10px 15px 143px 15px;
+    font-family: $robotoRegular;
+    font-size: $unoSeis;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media all and (min-width: 768px) {
+      width: 360px;
+      height: 32px;
+      margin: 0 204px 120px 204px;
+      font-size: $dosCuatro;
+    }
   }
-}
-.hero__title-sec {
-  width: 290px;
-  height: 21px;
-  color: $white;
-  margin: 10px 15px 143px 15px;
-  font-family: $robotoRegular;
-  font-size: $unoSeis;
-  font-weight: normal;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media all and (min-width: 768px) {
-    width: 360px;
-    height: 32px;
-    margin: 0 204px 120px 204px;
-    font-size: $dosCuatro;
-  }
-}
-.hero__title--arrow {
-  background-color: $white;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  padding: 18px 14px 14px 14px;
-  position: absolute;
-  bottom: 75px;
-  left: 43%;
-  @media all and (min-width: 768px) {
-    left: 47%;
-    bottom: 48px;
-  }
-  @media all and (min-width: 1200px) {
-    left: 48%;
-    bottom: 23px;
+  &__title--arrow {
+    background-color: $white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 18px 14px 14px 14px;
+    position: absolute;
+    bottom: 75px;
+    left: 43%;
+    @media all and (min-width: 768px) {
+      left: 47%;
+      bottom: 48px;
+    }
+    @media all and (min-width: 1200px) {
+      left: 48%;
+      bottom: 23px;
+    }
   }
 }

@@ -41,7 +41,6 @@
 }
 .footer__articles--five {
   margin-top: 60px;
-  color: $white;
   font-size: $unoSeis;
   line-height: $tresCero;
   text-transform: uppercase;
@@ -56,11 +55,10 @@
 }
 .footer__articles--three {
   margin-top: $tresCero;
-  color: $white;
+
   font-size: $unoSeis;
   line-height: $tresCero;
   text-transform: uppercase;
-  text-decoration: none;
   @media all and(min-width:768px) {
     margin-top: 0;
   }
