@@ -1,5 +1,7 @@
 .footer {
   background-color: $darkBlue;
+  font-family: $robotoRegular;
+  font-weight: normal;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +25,6 @@
   @media all and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between; /*no hace nada, quitar?*/
     text-align: start;
   }
 }
@@ -34,10 +35,12 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  @media all and(min-width:1200px) {
+    width: 320px;
+  }
 }
 .footer__articles--five {
   margin-top: 60px;
-  font-family: $robotoRegular;
   color: $white;
   font-size: 16px;
   line-height: 30px;
@@ -53,7 +56,6 @@
 }
 .footer__articles--three {
   margin-top: 30px;
-  font-family: $robotoRegular;
   color: $white;
   font-size: 16px;
   line-height: 30px;
@@ -61,23 +63,21 @@
   @media all and(min-width:768px) {
     margin-top: 0;
   }
-  @media all and(min-width:1200px) {
-  }
 }
 .footer__copy {
   margin-top: 30px;
   margin-bottom: 45px;
-  font-family: $robotoRegular;
   color: $white;
   font-size: 14px;
   line-height: 30px;
   text-transform: lowercase;
   @media all and(min-width:768px) {
     width: 279px;
-    margin-top: 0; /*ojo con esto*/
-    margin-bottom: 0; /*ojo con esto también*/
+    margin-top: 0;
+    margin-bottom: 0;
   }
   @media all and(min-width:1200px) {
+    width: 159px;
   }
 }
 .footer__articles-five--link {
