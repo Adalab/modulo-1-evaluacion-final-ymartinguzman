@@ -24,9 +24,24 @@
 // .reasons__main-articles {
 // }
 .reasons__button {
-  width: 184px;
-  height: 45px;
+  width: 100%;
+  text-align: center;
+}
+.reasons__button-out {
   background-color: $orange;
-  border-radius: 25px;
-  // box-shadow: unset;
+  border-radius: 22.5px;
+  margin: 45px 0;
+  border: 2px solid #f26002;
+  color: $white;
+  font-size: 20px;
+  padding: 10px 30px;
+  font-family: $robotoRegular;
+  // transition: all 2s ease;
+}
+// .reasons__button:hover {
+//   background-color: $white;
+//   color: $orange;
+// }
+.reasons__button-out--link {
+  color: white;
 }
