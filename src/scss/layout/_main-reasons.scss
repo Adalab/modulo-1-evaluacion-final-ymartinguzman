@@ -29,19 +29,25 @@
 }
 .reasons__button-out {
   background-color: $orange;
+  color: $white;
   border-radius: 22.5px;
   margin: 45px 0;
   border: 2px solid #f26002;
-  color: $white;
   font-size: 20px;
   padding: 10px 30px;
   font-family: $robotoRegular;
-  // transition: all 2s ease;
+  -webkit-transition: background-color, color, ease 2s;
 }
-// .reasons__button:hover {
-//   background-color: $white;
+// a:-webkit-any-link {
 //   color: $orange;
+//   cursor: pointer;
+//   text-decoration: none;
 // }
+button:hover {
+  color: $orange;
+  background-color: $white;
+}
+
 .reasons__button-out--link {
   color: white;
 }
