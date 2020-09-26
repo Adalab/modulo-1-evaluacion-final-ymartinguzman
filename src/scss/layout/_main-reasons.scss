@@ -5,9 +5,9 @@
 .reasons__title {
   font-family: $robotoSlab;
   font-weight: bold;
-  font-size: 24px;
+  font-size: $dosCuatro;
   text-transform: capitalize;
-  line-height: 30px;
+  line-height: $tresCero;
   color: $black;
   text-align: center;
   padding: 30px 15px;
@@ -28,12 +28,12 @@
     .reasons__main-art1--title,
     .reasons__main-art2--title,
     .reasons__main-art3--title {
-      font-size: 24px;
+      font-size: $dosCuatro;
     }
     .reasons__main-art1--sen,
     .reasons__main-art2--sen,
     .reasons__main-art3--sen {
-      font-size: 20px;
+      font-size: $dosCero;
     }
 
     .reasons__main-art2 {
@@ -55,18 +55,18 @@
 .reasons__main-art1--title,
 .reasons__main-art2--title,
 .reasons__main-art3--title {
-  font-size: 18px;
+  font-size: $unoOcho;
   font-family: $robotoSlab;
-  line-height: 30px;
+  line-height: $tresCero;
   color: $black;
   font-weight: bold;
 }
 .reasons__main-art1--sen,
 .reasons__main-art2--sen,
 .reasons__main-art3--sen {
-  font-size: 18px;
+  font-size: $unoOcho;
   font-family: $robotoRegular;
-  line-height: 30px;
+  line-height: $tresCero;
   color: $black;
 }
 
@@ -88,7 +88,7 @@
   border-radius: 22.5px;
   margin: 45px 0 60px;
   border: 2px solid #f26002;
-  font-size: 20px;
+  font-size: $dosCero;
   padding: 10px 30px;
   font-family: $robotoRegular;
   transition: background-color, color, ease 2s;

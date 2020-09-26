@@ -34,7 +34,7 @@
   color: $white;
   margin: 284px 15px 0 15px;
   font-family: $robotoSlab;
-  font-size: 42px;
+  font-size: $cuatroDos;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@
   color: $white;
   margin: 10px 15px 143px 15px;
   font-family: $robotoRegular;
-  font-size: 16px;
+  font-size: $unoSeis;
   font-weight: normal;
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@
     width: 360px;
     height: 32px;
     margin: 0 204px 120px 204px;
-    font-size: 24px;
+    font-size: $dosCuatro;
   }
 }
 .hero__title--arrow {

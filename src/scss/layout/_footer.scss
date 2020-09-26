@@ -42,8 +42,8 @@
 .footer__articles--five {
   margin-top: 60px;
   color: $white;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: $unoSeis;
+  line-height: $tresCero;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -55,21 +55,22 @@
   }
 }
 .footer__articles--three {
-  margin-top: 30px;
+  margin-top: $tresCero;
   color: $white;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: $unoSeis;
+  line-height: $tresCero;
   text-transform: uppercase;
+  text-decoration: none;
   @media all and(min-width:768px) {
     margin-top: 0;
   }
 }
 .footer__copy {
-  margin-top: 30px;
+  margin-top: $tresCero;
   margin-bottom: 45px;
   color: $white;
-  font-size: 14px;
-  line-height: 30px;
+  font-size: $unoCuatro;
+  line-height: $tresCero;
   text-transform: lowercase;
   @media all and(min-width:768px) {
     width: 279px;
