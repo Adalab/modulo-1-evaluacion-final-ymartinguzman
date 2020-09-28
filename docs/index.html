@@ -6,94 +6,209 @@
     <title>Anonymous proxy</title>
 
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <!-- <link rel="icon" href="./assets/images/favicon.png" /> -->
   </head>
 
   <body>
-    <header>
-      <div class="hero-image"></div>
+    <header id="top" class="header">
+      <a
+        title="Go to Adalab main site"
+        href="https://adalab.es/"
+        target="_blank"
+      >
+        <button class="btn-hamburguer"></button>
+      </a>
 
-      <section>
-        <a href="https://adalab.es/" target="_blank"
-          ><button class="btn-hamburguer"></button>
-        </a>
+      <section class="hero">
+        <h1 class="hero__title-first">
+          <span> Anonymous</span>
+          <span> Proxy </span>
+        </h1>
+        <h3 class="hero__title-sec">In hac habitasse platea dictumst</h3>
 
-        <div class="title">
-          <h1 class="title__first">
-            <span class="title__first--inner"> Anonymous</span>
-            <span class="title__first--inner"> Proxy </span>
-          </h1>
-          <h3 class="title__sec">In hac habitasse platea dictumst</h3>
-        </div>
-
-        <a class="title__arrow" href="https://adalab.es/">
-          <!--ojo cambiar hrf para que vaya a main-->
-
-          <div>
-            <img
-              class="title__arrow--link"
-              src="./assets/images/ico-scroll-down.svg"
-              alt="Arrow to scroll down"
-            />
-          </div>
+        <a
+          title="Go to section 3 reasons to purchase"
+          class="hero__title--arrow"
+          href="#main"
+        >
+          <img
+            title="Arrow link to main"
+            src="./assets/images/ico-scroll-down.svg"
+            alt="Arrow to scroll down"
+          />
         </a>
       </section>
     </header>
 
-    <!--ojo trabajar en rama master-->
-
     <main>
-      <aside>
-        <small>Insomnia tips</small>
-        <h2>Looking through a window</h2>
-        <p>
-          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
-          luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+      <aside class="info">
+        <small class="info__tips">Insomnia tips</small>
+        <h2 class="info__title">
+          Looking through a <span class="info__title--window">window</span>
+        </h2>
+        <p class="info__text">
+          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
+          at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        <button>Go</button>
+        <button class="info__button">
+          <a
+            class="info__button-link"
+            title="More information"
+            href="https://adalab.es/"
+            target="_blank"
+          >
+          </a>
+          Go
+        </button>
       </aside>
-      <section>
-        <h2>3 reasons to purchase</h2>
-        <article>
-          <h3>Ut sed metus</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur.</p>
-        </article>
-        <article>
-          <h3>Curabitur ac erat</h3>
-          <p>Mauris mattis urna quis lorem molestie.</p>
-        </article>
-        <article>
-          <h3>Morbi dictum</h3>
-          <p>Aliquam in dolor et dolor tincidunt.</p>
-        </article>
-        <button>More reasons</button>
-        <!--link href redirecciona inicio pagina-->
+      <section id="main" class="reasons">
+        <h2 class="reasons__title">3 reasons to purchase</h2>
+        <div class="reasons__main">
+          <article class="reasons__main-art1">
+            <h3 class="reasons__main-art1--title">Ut sed metus</h3>
+            <p class="reasons__main-art1--sen">
+              Lorem ipsum dolor sit amet, consectetur.
+            </p>
+          </article>
+          <article class="reasons__main-art2">
+            <h3 class="reasons__main-art2--title">Curabitur ac erat</h3>
+            <p class="reasons__main-art2--sen">
+              Mauris mattis urna quis lorem molestie.
+            </p>
+          </article>
+          <article class="reasons__main-art3">
+            <h3 class="reasons__main-art3--title">Morbi dictum</h3>
+            <p class="reasons__main-art3--sen">
+              Aliquam in dolor et dolor tincidunt.
+            </p>
+          </article>
+        </div>
+        <div class="reasons__button">
+          <button class="reasons__button-out">
+            More reasons
+            <a
+              title="More reasons to purchase"
+              class="reasons__button-out--link"
+              href="https://adalab.es/"
+              target="_blank"
+            >
+            </a>
+          </button>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <nav>
-        <ul>
-          <li>Articles</li>
-          <li>Books</li>
-          <li>Events</li>
-          <li>Reasons</li>
-          <li>Tips</li>
-        </ul>
-      </nav>
-      <nav>
-        <ul>
-          <li>Twitter</li>
-          <li>Instagram</li>
-          <li>Mastodon.social</li>
-          <!-- <li><Mastodon class="social"></Mastodon></li> -->
-        </ul>
-      </nav>
-      <div>
-        &copy;2017
-        <small>we❤️components</small>
+    <footer id="header" class="footer">
+      <a title="Go to the top" href="#top" class="footer__arrow">
+        <img
+          title="Arrow link to the top"
+          src="./assets/images/ico-arrow.svg"
+          alt="Arrow to scroll up"
+        />
+      </a>
+      <div class="footer__articles">
+        <div class="footer__articles-group">
+          <nav class="footer__articles--five">
+            <ul>
+              <li>
+                <a
+                  title="Link to Articles"
+                  class="footer__articles-five--link"
+                  href="https://adalab.es/"
+                  target="_blank"
+                  style="color: white; text-decoration: none"
+                  ;
+                  >Articles</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Link to Books"
+                  class="footer__articles-five--link"
+                  href="https://adalab.es/"
+                  target="_blank"
+                  style="color: white; text-decoration: none"
+                  ;
+                  >Books</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Link to Events"
+                  class="footer__articles-five--link"
+                  href="https://adalab.es/"
+                  target="_blank"
+                  style="color: white; text-decoration: none"
+                  ;
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Link to Reasons"
+                  class="footer__articles-five--link"
+                  href="https://adalab.es/"
+                  target="_blank"
+                  style="color: white; text-decoration: none"
+                  ;
+                  >Reasons</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Link to Tips"
+                  class="footer__articles-five--link"
+                  href="https://adalab.es/"
+                  target="_blank"
+                  style="color: white; text-decoration: none"
+                  ;
+                  >Tips</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer__articles--three">
+            <ul>
+              <li>
+                <a
+                  title="Link to Twitter"
+                  class="footer__articles-three--link"
+                  href="https://adalab.es/"
+                  target="_blank"
+                  style="color: white; text-decoration: none"
+                  ;
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Link to Instagram"
+                  class="footer__articles-three--link"
+                  href="https://adalab.es/"
+                  target="_blank"
+                  style="color: white; text-decoration: none"
+                  ;
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  title="Link to Mastodon.social"
+                  class="footer__articles-three--link"
+                  href="https://adalab.es/"
+                  target="_blank"
+                  style="color: white; text-decoration: none"
+                  ;
+                  >Mastodon.social</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__copy">
+          <p>&copy;2020</p>
+          <small> We ❤️ components</small>
+        </div>
       </div>
     </footer>
-
   </body>
 </html>
