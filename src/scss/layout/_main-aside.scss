@@ -1,0 +1,83 @@
+.info {
+  background-color: $white;
+  margin: 30px 15px 45px 15px;
+  @media all and (min-width: 768px) {
+    margin: 30px 39px 60px 39px;
+  }
+  @media all and (min-width: 1200px) {
+    margin: 60px 275px;
+  }
+}
+
+.info__tips {
+  font-family: $robotoRegular;
+  font-size: $unoCuatro;
+  line-height: $tresCero;
+  color: $lightblue;
+  text-transform: capitalize;
+
+  @media all and (min-width: 1200px) {
+    font-size: $unoSeis;
+  }
+}
+.info__title {
+  font-family: $robotoSlab;
+  font-size: $dosCuatro;
+  line-height: $tresCero;
+  color: $black;
+  text-transform: capitalize;
+  font-weight: bold;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 45px;
+  }
+  @media all and (min-width: 1200px) {
+  }
+}
+.info__title--window {
+  display: flex;
+  flex-direction: column;
+  @media all and (min-width: 768px) {
+    display: inline;
+  }
+}
+.info__text {
+  font-family: $robotoRegular;
+  font-size: $unoOcho;
+  line-height: 1.67em;
+  color: $softGrey;
+  margin-top: 15px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: $tresCero;
+  }
+}
+.info__button {
+  height: 45px;
+  width: 76px;
+  background-color: $white;
+  border-radius: 25px;
+  border: 2px solid $orange;
+  color: $orange;
+  margin-top: $tresCero;
+  font-size: $dosCero;
+  line-height: 45px;
+  font-weight: 500;
+  transition: background-color, color, ease 2s;
+
+  @media all and (min-width: 768px) {
+    height: 45px;
+    width: 91px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 160px;
+  }
+}
+.info__button:hover {
+  background-color: $orange;
+  color: $white;
+}
+.info__button-link {
+  color: white;
+}
