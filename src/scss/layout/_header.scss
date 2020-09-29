@@ -73,9 +73,11 @@
   position: absolute;
   bottom: 75px;
   left: 43%;
+  z-index: -1;
   @media all and (min-width: 768px) {
     left: 47%;
     bottom: 48px;
+    z-index: 990;
   }
   @media all and (min-width: 1200px) {
     left: 48%;
